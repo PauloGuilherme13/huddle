@@ -99,3 +99,50 @@ nav{
 #grow-2geda{
     padding-top: 100px;
 }
+
+#grow-2geda, #flow-convo, #user{
+    padding-bottom: 20px;
+}
+
+.grow-2geda, .flow-convo, .user{
+    min-height: 300px;
+    box-shadow: 2px 2px 5px gainsboro, -2px -2px 5px gainsboro;
+    border-radius: 5px;
+}
+
+.left-grow, .right-flow, .left-user{
+    width: 50%;
+    padding-left: 70px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.left-grow h2, .right-flow h2, .left-user h2{
+    font-family:"Poppins";
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.left-grow p, .right-flow p, .left-user p{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 20px;
+    color: hsl(208, 11%, 55%);
+}
+
+.right-grow, .left-flow, .right-user{
+    width: 50%;
+    height: 100%;
+    padding: 20px 20px 20px 60px;
+}
+
+.right-grow img, .left-flow img, .right-user img{
+    width: 100%;
+    height: 100%;
+}
