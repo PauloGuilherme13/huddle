@@ -146,3 +146,52 @@ nav{
     width: 100%;
     height: 100%;
 }
+
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: hsl(193, 100%, 96%);
+    padding-top: 100px;
+    position: relative;
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+#bottom{
+    position: absolute;
+    top: -100px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bottom-container{
+    box-shadow: 2px 2px 2px gainsboro,-2px -2px 2px gainsboro;
+    display: inline-block;
+    padding: 40px 70px;
+    border-radius: 5px;
+    margin-bottom: -50px;
+    color: black;
+    background-color: white;
+}
+
+.bottom-container h2{
+    font-family: "Poppins",sans-serif;
+    padding-bottom: 20px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgb(183, 182, 182);
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.logo{
+    margin-bottom: 10px;
+}
