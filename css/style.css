@@ -195,3 +195,24 @@ footer{
 .logo{
     margin-bottom: 10px;
 }
+
+.first-wrapperk .location, .tel-num, .email{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.second-wrapper{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.second-wrapper a{
+    text-decoration: none;
+    color: hsl(193, 100%, 96%);
+    padding: 10px;
+}
