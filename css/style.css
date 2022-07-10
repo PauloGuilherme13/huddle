@@ -16,6 +16,7 @@ header{
 
 nav{
     margin-bottom: 20px;
+    /* background-color: black; */
 }
 
 .nav-bar{
@@ -24,36 +25,39 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 20px 20px;
+    /* background-color: black; */
 }
 
 .nav-bar a{
     text-decoration: none;
-    background-color: white;
-    color: black;
-    padding: 5px 40px;
+    background-color:hsl(322, 100%, 66%);
+    color:white;
+    padding: 10px 40px;
     border-radius: 20px;
     box-shadow: 2px 2px 5px rgb(183, 182, 182);
     font-family:"Open Sans", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
 }
 
 #hero nav{
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    
 }
 
 .container{
     width: 90%;
     margin: 0 auto;
     display: flex;
+    /* background-color: black; */
 }
 
 .left-hero{
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
 }
 
 .right-hero{
@@ -63,19 +67,28 @@ nav{
 .left-hero h1{
     font-family:"Poppins";
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.2;
+    margin-top: -100px;
     margin-bottom: 20px;
+    /* background-color: red; */
 }
 
 .left-hero p{
     font-family: "Open Sans";
     font-weight: 400;
-    font-size: 18px;
-    line-height: 1.3;
+    font-size: 20px;
+    line-height: 1.5;
     padding-bottom: 20px;
+    /* background-color: red; */
 }
 
-.left-hero a{
+.btn{
+    /* background-color: black; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn a{
     text-decoration: none;
     background-color: hsl(322, 100%, 66%);
     color: white;
@@ -211,8 +224,39 @@ footer{
     padding-left: 40px;
 }
 
-.second-wrapper a{
+.second-wrapper a, .third-wrapper a{
     text-decoration: none;
     color: hsl(193, 100%, 96%);
     padding: 10px;
+}
+
+.last-wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-brands{
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+}
+
+.third-wrapper{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
 }
